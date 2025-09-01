@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante Gran Muralla China</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #333;
+    }
+    header {
+      background: #b30000;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    h2 {
+      background: #eee;
+      padding: 10px;
+      margin: 0;
+      font-size: 18px;
+      border-left: 5px solid #b30000;
+    }
+    .menu-section {
+      padding: 15px;
+    }
+    .item {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0;
+      border-bottom: 1px dotted #ccc;
+    }
+    .precio {
+      font-weight: bold;
+      color: #444;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #eee;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍜 Restaurante Gran Muralla China</h1>
+    <p>Menú digital</p>
+  </header>
+
+  <!-- PASABOCAS -->
+  <div class="menu-section">
+    <h2>Pasabocas</h2>
+    <div class="item"><span>1. Lumpia</span><span class="precio">$4.000</span></div>
+    <div class="item"><span>2. Porción de camarón</span><span class="precio">$13.000</span></div>
+    <div class="item"><span>3. Ala de pollo frita</span><span class="precio">$10.500</span></div>
+    <div class="item"><span>4. Porción de papa</span><span class="precio">$3.500 / $10.500</span></div>
+    <div class="item"><span>5. Costilla ahumada con papa frita</span><span class="precio">$13.500</span></div>
+  </div>
+
+  <!-- POLLO -->
+  <div class="menu-section">
+    <h2>Pollo</h2>
+    <div class="item"><span>¼ Pollo con papa</span><span class="precio">$14.000</span></div>
+    <div class="item"><span>½ Pollo con ½ papa frita</span><span class="precio">$23.500</span></div>
+    <div class="item"><span>Pollo entero ½ papa</span><span class="precio">$36.000</span></div>
+  </div>
+
+  <!-- SOPAS Y CREMAS -->
+  <div class="menu-section">
+    <h2>Sopas y Cremas</h2>
+    <div class="item"><span>Sopa especial</span><span class="precio">$11.500</span></div>
+    <div class="item"><span>Sopa de pollo</span><span class="precio">$10.500</span></div>
+    <div class="item"><span>Sopa de camarones</span><span class="precio">$15.500</span></div>
+    <div class="item"><span>Sopa oriental (tallarines)</span><span class="precio">$16.500</span></div>
+    <div class="item"><span>Crema de pollo</span><span class="precio">$12.500</span></div>
+    <div class="item"><span>Crema de camarones</span><span class="precio">$16.500</span></div>
+    <div class="item"><span>Cazuela de mariscos</span><span class="precio">$27.000</span></div>
+  </div>
+
+  <!-- CHOW FAN (ARROZ CHINO) -->
+  <div class="menu-section">
+    <h2>Chow Fan (Arroz Chino)</h2>
+    <div class="item"><span>Arroz chino especial</span><span class="precio">$24.500 / $32.000 / $39.000</span></div>
+    <div class="item"><span>Arroz a la valenciana con ½ pollo</span><span class="precio">$35.000 / $45.000 / $57.000</span></div>
+    <div class="item"><span>Arroz frito con camarones</span><span class="precio">$25.000 / $33.000 / $48.000</span></div>
+    <div class="item"><span>Arroz frito con pollo picado</span><span class="precio">$22.500 / $30.000 / $40.000</span></div>
+    <div class="item"><span>Arroz frito pollo picado y camarones</span><span class="precio">$29.500 / $37.000 / $47.000</span></div>
+    <div class="item"><span>Arroz frito con mariscos</span><span class="precio">$28.500 / $38.000 / $51.000</span></div>
+    <div class="item"><span>Arroz vegetariano</span><span class="precio">$20.500 / $28.000 / $40.000</span></div>
+    <div class="item"><span>Arroz paisa</span><span class="precio">$40.000 / $50.500</span></div>
+  </div>
+
+  <!-- CHOP SUEY -->
+  <div class="menu-section">
+    <h2>Chop Suey (Verduras)</h2>
+    <div class="item"><span>Chop suey especial</span><span class="precio">$25.000 / $33.000</span></div>
+    <div class="item"><span>Chop suey con pollo picado</span><span class="precio">$25.500 / $33.000</span></div>
+    <div class="item"><span>Chop suey con camarones</span><span class="precio">$29.500 / $38.000</span></div>
+    <div class="item"><span>Chop suey pollo y camarones</span><span class="precio">$29.500 / $38.000</span></div>
+    <div class="item"><span>Chop men especial (con pasta china)</span><span class="precio">$39.000</span></div>
+  </div>
+
+  <!-- ESPAGUETI -->
+  <div class="menu-section">
+    <h2>Espagueti (con salsa tomate o salsa china)</h2>
+    <div class="item"><span>Espagueti especial</span><span class="precio">$25.000 / $33.000</span></div>
+    <div class="item"><span>Espagueti con camarones</span><span class="precio">$29.500 / $38.000</span></div>
+    <div class="item"><span>Espagueti con pollo picado</span><span class="precio">$25.000 / $33.000</span></div>
+    <div class="item"><span>Espagueti pollo y camarones</span><span class="precio">$29.500 / $38.000</span></div>
+  </div>
+
+  <!-- CARNE Y COSTILLA -->
+  <div class="menu-section">
+    <h2>Carne a la plancha y Costilla Ahumada</h2>
+    <div class="item"><span>Carne de res</span><span class="precio">$25.000</span></div>
+    <div class="item"><span>Carne de cerdo</span><span class="precio">$25.000</span></div>
+    <div class="item"><span>Pechuga a la plancha</span><span class="precio">$25.000</span></div>
+    <div class="item"><span>Costilla ahumada</span><span class="precio">$36.500</span></div>
+  </div>
+
+  <!-- COMBINADOS -->
+  <div class="menu-section">
+    <h2>Combinados</h2>
+    <div class="item"><span>Bandeja china mixta</span><span class="precio">$28.000 / $37.000</span></div>
+    <div class="item"><span>Combinados (Chow fan + Espagueti)</span><span class="precio">$28.000 / $37.500</span></div>
+    <div class="item"><span>Súper combinado (8 personas)</span><span class="precio">$75.000</span></div>
+  </div>
+
+  <!-- MENÚ DEL DÍA -->
+  <div class="menu-section">
+    <h2>Menú del Día (Personal)</h2>
+    <div class="item"><span>Combo 1 a 10</span><span class="precio">$19.000</span></div>
+    <div class="item"><span>Combo 11</span><span class="precio">$17.500</span></div>
+    <div class="item"><span>Combo 12</span><span class="precio">$16.000</span></div>
+    <div class="item"><span>Combo 13</span><span class="precio">$16.000</span></div>
+    <div class="item"><span>Combo 14 (Chop suey)</span><span class="precio">$17.500</span></div>
+    <div class="item"><span>Combo 15 (Espagueti)</span><span class="precio">$17.500</span></div>
+    <div class="item"><span>Combo 16 (Arroz chino especial)</span><span class="precio">$18.500</span></div>
+  </div>
+
+  <footer>
+    📍 Sede 1: Cra 10 No 24-87, Tunja | 📞 3104957158 - 3123744005 <br>
+    📍 Sede 2: Diagonal 33 # 4A-34 Local 7, Mesopotamia | 📞 3218559019 - 3218551531
+  </footer>
+</body>
+</html>
